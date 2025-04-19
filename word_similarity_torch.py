@@ -131,6 +131,9 @@ if __name__ == "__main__":
                 except ValueError as e:
                     print(e)
     
+    # 确保models目录存在
+    os.makedirs('./models', exist_ok=True)
+    
     # 保存模型
     torch.save({
         'model_state_dict': model.state_dict(),
