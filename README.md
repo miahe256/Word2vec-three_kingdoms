@@ -107,6 +107,7 @@ python word_similarity_inference.py
 2. GPU训练需要CUDA支持
 3. 模型训练时间取决于数据量和训练参数
 4. 建议使用大于等于100的词向量维度以获得更好的效果
+5. 程序会自动创建所需的models目录，无需手动创建
 
 ## 未来改进
 
